@@ -1,0 +1,44 @@
+{
+  "name": "mcp-server-devops",
+  "version": "0.1.0",
+  "description": "MCP server exposing Kubernetes, Prometheus and Grafana observability tools to MCP-compatible AI assistants (Claude Code, Cursor).",
+  "type": "module",
+  "main": "dist/index.js",
+  "bin": {
+    "mcp-server-devops": "dist/index.js"
+  },
+  "scripts": {
+    "build": "tsc",
+    "start": "node dist/index.js",
+    "dev": "tsx src/index.ts",
+    "inspector": "npx @modelcontextprotocol/inspector node dist/index.js"
+  },
+  "files": [
+    "dist"
+  ],
+  "keywords": [
+    "mcp",
+    "model-context-protocol",
+    "kubernetes",
+    "prometheus",
+    "grafana",
+    "devops",
+    "claude",
+    "cursor"
+  ],
+  "author": "Felipe Feres",
+  "license": "MIT",
+  "dependencies": {
+    "@kubernetes/client-node": "^1.0.0",
+    "@modelcontextprotocol/sdk": "^1.12.0",
+    "zod": "^4.6.7"
+  },
+  "devDependencies": {
+    "@types/node": "^22.10.1",
+    "tsx": "^4.19.2",
+    "typescript": "^5.7.2"
+  },
+  "engines": {
+    "node": ">=18"
+  }
+}
