@@ -102,4 +102,8 @@ src/
 
 ## License
 
-MIT
+Proprietary — Copyright (c) 2026 Felipe Feres. All Rights Reserved.
+
+This software is proprietary and confidential. No permission is granted to use,
+copy, modify, or distribute it without the prior express written permission of
+the owner. See [LICENSE](LICENSE) for full terms.

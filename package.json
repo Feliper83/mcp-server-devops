@@ -27,7 +27,8 @@
     "cursor"
   ],
   "author": "Felipe Feres",
-  "license": "MIT",
+  "license": "UNLICENSED",
+  "private": true,
   "dependencies": {
     "@kubernetes/client-node": "^1.0.0",
     "@modelcontextprotocol/sdk": "^1.12.0",
