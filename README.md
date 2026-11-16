@@ -1,5 +1,7 @@
 # mcp-server-devops
 
+[![M8ven Score](https://m8ven.ai/badge/mcp/feliper83-mcp-server-devops-12qg2p?v=665580931045178e9ae18e73901b91dd)](https://m8ven.ai/mcp/feliper83-mcp-server-devops-12qg2p?s=readme)
+
 An [MCP](https://modelcontextprotocol.io) (Model Context Protocol) server that exposes Kubernetes, Prometheus, and
 Grafana observability data as tools an AI assistant (Claude Code, Cursor, Claude Desktop) can call directly during a
 conversation — "is this pod healthy", "what's p95 latency on the provisioning API", "summarize the cluster overview
